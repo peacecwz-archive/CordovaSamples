@@ -1,0 +1,8 @@
+{
+  "name": "LoginRegisterWithFirebase",
+  "dependencies": {
+    "firebase": "2.2.9",
+    "angular": "1.4.6",
+    "angular-route": "1.4.6"
+  }
+}

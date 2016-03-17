@@ -1,0 +1,12 @@
+﻿<form ng-controller="RegisterController">
+    <p>
+        Email: <input type="email" placeholder="E-Mail Address..." ng-model="user.email" />
+    </p>
+    <p>
+        Password: <input type="password" placeholder="Password..." ng-model="user.password" />
+    </p>
+    <p>
+        <input type="button" ng-click="Register(user);" value="Register" />
+        Or <a href="#/login">Login</a>
+    </p>
+</form>
