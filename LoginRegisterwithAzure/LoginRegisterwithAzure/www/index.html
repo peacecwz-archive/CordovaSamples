@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="LoginRegisterApp" ng-csp>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://<api-name>.azurewebsites.net; style-src 'self'; media-src *">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>LoginRegisterwithAzure</title>
+</head>
+<body>
+    <div ng-view></div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+
+    <script src="libs/MobileServices.Web.js"></script>
+
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
